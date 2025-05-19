@@ -1,0 +1,14 @@
+{
+  "vm-1747658733681-8gk8zw": {
+    "id": "vm-1747658733681-8gk8zw",
+    "name": "ab",
+    "cpu": 1,
+    "ram": 2,
+    "disk": 2,
+    "network": "office",
+    "users": [],
+    "packages": [
+      "wget"
+    ]
+  }
+}
