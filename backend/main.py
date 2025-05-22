@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from models import VM
+from .models import VM
 from .storage import load_data, save_data, mock_ad_users, mock_package_list
 
 app = FastAPI()
