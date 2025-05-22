@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+env/
+.vscode/
+
+# VS Code settings
+*.code-workspace
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React build output
+frontend/build/
+
+# OS/system
+.DS_Store
+Thumbs.db
