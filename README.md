@@ -72,12 +72,14 @@ vm-provisioning/
 ### Backend
 
 ```bash
-cd backend
+cd vm-provisioning  # Project root
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r ../requirements.txt
 uvicorn main:app --reload
 ```
+> ⚠️ **Important:** Do not run `uvicorn` from inside the `backend/` folder, or you'll get a relative import error. Always run from the project root and use `backend.main:app`.
+
 
 The API will be available at:
 **[http://localhost:8000](http://localhost:8000)**
