@@ -76,7 +76,11 @@ cd vm-provisioning  # Project root
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r requirements.txt
+<<<<<<< HEAD
 uvicorn backend.main:app --reload
+=======
+uvicorn main:app --reload
+>>>>>>> c4968dab3140eda188a07e881b21922a193eb793
 ```
 > ⚠️ **Important:** Do not run `uvicorn` from inside the `backend/` folder, or you'll get a relative import error. Always run from the project root and use `backend.main:app`.
 
