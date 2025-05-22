@@ -21,3 +21,8 @@ frontend/build/
 # OS/system
 .DS_Store
 Thumbs.db
+
+# Forced inclusion
+!frontend/*
+!frontend/src/**
+!frontend/package.json
